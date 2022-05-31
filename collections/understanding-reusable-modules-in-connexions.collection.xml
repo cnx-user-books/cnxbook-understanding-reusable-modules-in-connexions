@@ -1,0 +1,50 @@
+<col:collection xmlns="http://cnx.rice.edu/collxml" xmlns:col="http://cnx.rice.edu/collxml" xmlns:cnxml="http://cnx.rice.edu/cnxml" xml:lang="en" type="Manual">
+  <metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+  <md:content-id>col11503</md:content-id>
+  <md:title>Understanding Reusable Modules in Connexions</md:title>
+  
+  
+  <md:license url="http://creativecommons.org/licenses/by/3.0/"/>
+  <md:language>en</md:language>
+
+  
+
+  
+  
+  
+  
+  
+
+  <md:uuid>8210a3e7-bc36-4f24-b3d3-9298efd5ac99</md:uuid>
+<md:slug>understanding-reusable-modules-in-connexions</md:slug>
+</metadata>
+
+  <col:content>
+    
+      <col:module document="m38767">
+        <col:featured-links>
+          
+            <cnxml:link-group type="supplemental">
+              <cnxml:link url="http://cnx.org/content/m11804/latest/">Derived Copy</cnxml:link>
+            </cnxml:link-group>
+          
+        </col:featured-links>
+      </col:module>
+        
+      
+    
+    
+      <col:module document="m38952">
+        <col:featured-links>
+          
+            <cnxml:link-group type="supplemental">
+              <cnxml:link url="http://cnx.org/help/authoring/import-export">Import/Export Help</cnxml:link>
+            </cnxml:link-group>
+          
+        </col:featured-links>
+      </col:module>
+        
+      
+    
+  </col:content>
+</col:collection>

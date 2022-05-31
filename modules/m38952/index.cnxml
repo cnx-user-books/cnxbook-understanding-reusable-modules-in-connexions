@@ -1,0 +1,137 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+
+<title>Importing and Exporting to Connexions</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m38952</md:content-id>
+  <md:title>Importing and Exporting to Connexions</md:title>
+  <md:abstract>This module gives an overview of the import and export pathways in Connexions.</md:abstract>
+  <md:uuid>9dcbe367-bca9-4d7c-8fa4-2b391d9b2d3c</md:uuid>
+</metadata>
+<featured-links>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit below.
+       Changes to the links section in the source will not be saved. -->
+    <link-group type="supplemental">
+      <link url="http://cnx.org/help/authoring/import-export" strength="3">Import/Export Help</link>
+    </link-group>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit above.
+       Changes to the links section in the source will not be saved. -->
+</featured-links>
+<content>
+            <para id="imp-id1165933406840">Our editors allow you to work with your content online, anywhere, anytime, without needing to keep track of files on your local hard drive. While this works in most cases, there are also times when authors or developers would prefer working in an offline environment. Similarly, many authors with existing Word, OpenOffice, or LaTeX documents do not want to have to start over with a new document. The following sections describe the import and export options available to you through our platform, along with links to resources to help get you started.</para>
+<para id="imp-id1165918582760"><title>Contents</title>
+<list id="imp-id1165915252567" list-type="bulleted"><item><link target-id="importmodule">Importing a Module</link></item><item><link target-id="importcollection">Importing a Collection</link></item><item><link target-id="exportmodule">Exporting a Module</link></item><item><link target-id="exportcollection">Exporting a Collection</link></item></list>
+</para>
+
+<section id="importmodule"><title>Importing a Module</title><para id="imp-id1165920429861">There are several <link target-id="importers">types of importers</link> to help authors quickly upload and convert existing word processor documents into CNXML modules. These importers were designed to accommodate as many common cases as possible, but do require a certain degree of preparation to ensure that the documents are imported as accurately and completely as possible. If you are looking to import content, please be sure to read all of the documentation and template information provided <emphasis effect="italics">before</emphasis> <link target-id="useimporters">using the importer</link>.</para>
+
+<section id="importers"><title>Types of importers</title><para id="importerspara">The following importers are provided for working with existing or external content:</para>
+
+<section id="word"><title>Word/OpenOffice Importer</title>
+
+<para id="imp-id1165926689052">You can use the Word/OpenOffice importer to import *.doc files and convert them to CNXML modules. You can use either Microsoft Word or an open source editor like OpenOffice Writer that allows you to save in the *.doc format to prepare your document. In either case, be sure to save with file extension *.doc, or as the Microsoft Word 97-2003 compatible version. The following links provide resources to help get you started:</para>
+
+<list id="imp-id1165926919754" list-type="bulleted"><item>View the <link document="m13056">Word Importer documentation</link></item><item>Download the <link url="../help/authoring/templates/Connexions-Document.dot">Word Importer template (.dot)</link></item><item>Download the <link url="../help/authoring/templates/WordExample.doc">Word Importer example document (.doc)</link></item></list>
+
+<para id="imp-id1165920233915">Remember that using the Word/OOo importer will <emphasis>overwrite</emphasis> any existing content, so only use this method when working with a new module or when you are sure you don't mind starting over.</para>
+</section>
+
+<section id="latex"><title>LaTeX Importer</title>
+<para id="imp-id4484392">You can use the LaTeX importer to import .tex files (packed as a .zip file along with embedded media files) and convert them to CNXML modules. The following links provide resources to help get you started:</para>
+
+<list id="imp-id1165946995031" list-type="bulleted"><item>View the <link document="m17310">LaTeX Importer documentation</link></item><item>Download the <link url="../help/authoring/templates/LaTeX_template.tex">LaTeX Importer template (.tex)</link></item></list>
+<para id="imp-id1165917743313">Remember that importing a LaTeX document into a module will <emphasis>overwrite</emphasis> any existing content, so only use this method when working with a new module or when you are sure you don't mind starting over.</para>
+
+<note id="imp-id1165935583170" type="important">Please be sure to read all of the instructions in the help file and template very carefully, particularly the list of supported LaTeX packages. The vast majority of LaTeX importer errors are the result of using an unsupported package.</note></section>
+
+<section id="plainxml"><title>Plain CNXML Importer</title><para id="imp-id1165920066218">For authors wishing to develop CNXML files in an external editor, you can upload your files (saved as plain text files with the *.cnxml extension) using the Plain CNXML Importer. You can learn more about the structure of a CNXML document in the <link document="col10121">CNXML Tutorial</link>.</para>
+
+<para id="eip-841">This importer will <emphasis>overwrite</emphasis> the current CNXML module with the contents of the file provided, so only use this method when working with a new module or when you are sure you don't mind starting over.</para>
+
+<para id="imp-id1165915244749">Several authors have asked if we provide support for offline CNXML editing. While we do not currently provide such support, we are interested in developing this at some point in the future provided there is sufficient interest for our authors. If you would be interested in contributing to this development, please email <link url="mailto:techsupport@cnx.org">techsupport@cnx.org</link> and let us know!</para>
+</section>
+
+<section id="zip"><title>ZIP Importer</title>
+<para id="imp-id1165920000925">The ZIP Importer is unique in that it is the only importer that does not necessarily overwrite the contents of the module. The contents of the .zip file are uploaded to the <emphasis effect="italics">Files</emphasis> tab of the module, replacing/updating any contents of the same name that already exist.</para>
+<list id="imp-id1165917618252" list-type="bulleted"><item>If the ZIP file contains a file called <emphasis effect="italics">index.cnxml</emphasis>, then <emphasis>the module contents are overwritten</emphasis> just as they are with the Plain CNXML importer.</item><item>If the ZIP file contains files with the same name as previously attached files, then those files are replaced with the new version. This feature makes the ZIP importer a convenient way to update several images, downloads, or other supporting resources at once.</item><item>If the ZIP file contains files which are not already attached to the module, then those files are added just as if they had been added manually through the <emphasis effect="italics">Files</emphasis> tab. This feature makes the ZIP importer a convenient way to "batch upload" several new supporting resources at once.</item></list>
+
+<note id="imp-id1165934922168">The module file structure does not support folders or subdirectories. Any folders or subdirectories in the zip file that you import into a module will be ignored.</note>
+</section>
+</section>
+
+<section id="useimporters"><title>Using the module importers</title>
+<list id="imp-id1165917124936" list-type="enumerated"><item>If you have not already done so, <link document="m10887">create</link> a new blank module.</item><item>Use the help documents linked above to ensure you have prepared your document correctly; otherwise you may get an error.</item><item>The importer dropdown menu is accessible on both the module <code>Content</code> tab and the <code>Files</code> tab when editing the module. Choose the importer type from the dropdown menu and click <code>Import</code>.
+
+<figure id="imp-id1165922732831"><media id="imp-id1165941525787" display="block" alt="The module import menu (expanded).">
+<image src="../../content/m19610/latest/import-menu-expanded.png" mime-type="image/png"/>
+</media>
+
+<caption>The module import menu (expanded).</caption></figure>
+</item>
+
+<item>On the next page, browse to your saved file on your harddrive and click <code>Import</code>.</item></list>
+<figure id="imp-id1165912379957"><media id="imp-id1165918372628" display="block" alt="Browse to file.">
+<image src="../content/m19610/latest/edittext-import-browse-empty.jpg" mime-type="image/jpeg"/>
+</media>
+
+
+<caption>The import document page.</caption></figure>
+
+<para id="imp-id1165926282855">You can mix and match any of the different importer types to meet your needs; for example, you can upload new files while simultaneously updating existing images, replace the index.cnxml file without affecting other existing resources, etc. This importer can be used as a batch uploader, as an extension of the Plain CNXML importer, or in conjunction with with the <link target-id="zipexport">ZIP exporter</link>.</para>
+</section>
+</section>
+
+<section id="importcollection"><title>Importing a Collection</title>
+<para id="imp-id1165911657596">Importing collections is currently not supported; however, we have recently begun laying the groundwork to make this feature available at some point in the future. If you are a developer and would like more information regarding the current support of exported or third-party CollXML documents, please contact <link url="mailto:techsupport@cnx.org">techsupport@cnx.org</link> for assistance.</para>
+</section>
+
+<section id="exportmodule"><title>Exporting a Module</title>
+
+<para id="imp-id1165920127022">You can export a module for offline editing, to create a backup of your content, or to use with an external platform that supports the use of CNXML documents. You can export a module from your workgroup by checking it out and using the "Export" menu in the module editor:</para>
+
+<figure id="imp-id1165919185215"><media id="imp-id1165941584243" display="block" alt="The module export menu (expanded).">
+<image src="../../content/m19610/latest/export-menu-expanded.png" mime-type="image/png"/>
+</media>
+
+<caption>The module export menu (expanded).</caption></figure>
+
+<para id="imp-id1165920216258">There are two options available for exporting modules:
+<list id="imp-id1165911597639" list-type="bulleted"><item><emphasis>Plain CNXML</emphasis> allows you to download the <link document="col10121">CNXML</link> file for the module, which contains all of the module text and CNXML markup. The exported file is titled "<emphasis effect="italics">&lt;moduleid&gt;</emphasis>-plain.cnxml", where <emphasis effect="italics">&lt;moduleid&gt;</emphasis> is the module's ID number.</item><item id="zipexport"><emphasis>Zip File</emphasis> allows you to download the module's CNXML file (titled "index.cnxml") along with all attached resource files (such as embedded images, downloadable handouts, etc.).</item></list>
+
+You can also access the CNXML source code for any published module by appending "source" to the module's URL (e.g. <link document="m10884">http://cnx.org/content/m10884/latest/source</link>).
+</para>
+</section>
+
+<section id="exportcollection"><title>Exporting a Collection</title>
+<para id="imp-id1165932066776">You can use the collection export feature to download a copy of a collection for external use. There are two versions of the collection available:
+<list id="imp-id1165917098838" list-type="bulleted"><item>The <emphasis>complete version</emphasis>, which includes information about the collection structure as well as the complete contents of all component modules.</item><item>The <emphasis>CollXML-only version</emphasis>, which includes only the structural information for the collection and does not include component modules.</item></list>
+When viewing the published version of a collection online, you can export both versions of the collection from the metadata page - simply scroll to the bottom of the collection home page and click on the 'Metadata' link, and locate the appropriate link at the bottom of the 'Metadata' section.
+</para>
+
+<figure id="imp-id1165920762089"><media id="imp-id1165940465787" display="block" alt="The collection export option from the collection metadata page.">
+<image src="../../content/m19610/latest/export-collection-published.png" mime-type="image/png" width="600"/>
+</media>
+
+<caption>The collection export option from the collection metadata page.</caption></figure>
+
+<para id="imp-id1165917198376">Collection authors can also download both versions of the collection export file from their workgroup after publishing a collection, and can download the CollXML-only version from any checked-out collection.</para>
+
+<note id="eip-913" type="important">There is currently no support for importing collections, including those exported through this feature. At present, the collection export feature is provided primarily for developers interested in taking advantage of existing content for use with external platforms supporting CollXML/CNXML documents.</note><section id="imp-id1165912396727"><title>The Collection Export File (complete version)</title>
+
+<para id="imp-id1165932622937">The complete exported collection is packaged as a ZIP file titled "<emphasis effect="italics">&lt;collectionid&gt;</emphasis>_<emphasis effect="italics">&lt;version&gt;</emphasis>_complete.zip", where <emphasis effect="italics">&lt;collectionid&gt;</emphasis> and <emphasis effect="italics">&lt;version&gt;</emphasis> are the collection's ID and version number, respectively. Once expanded, this version of the exported collection contains the following:
+<list id="imp-id6416804" list-type="bulleted"><item>A <link url="xml#collxml">CollXML</link> document (titled "<emphasis effect="italics">&lt;collectionid&gt;</emphasis>_<emphasis effect="italics">&lt;version&gt;</emphasis>_collection.xml") describing the collection's structure.</item><item>For each component module, a folder titled "<emphasis effect="italics">&lt;moduleid&gt;</emphasis>" (the module's ID). Each of these folders contains:
+
+<list id="imp-id1165934857323" list-type="bulleted"><item>The <link document="col10121">CNXML</link> document for the module (titled "index.cnxml").</item><item>Any resource files, such as embedded images or downloadable handouts, that are attached to the module.</item></list>
+</item></list>
+</para>
+</section>
+
+<section id="imp-id1165932156370"><title>The Collection Export File (CollXML-only version)</title>
+<para id="imp-id1165912374933">The structure-only version of the exported collection is available as a downloadable <link url="../help/authoring/xml#collxml">CollXML</link> document titled "<emphasis effect="italics">&lt;id&gt;</emphasis>_<emphasis effect="italics">&lt;version&gt;</emphasis>_collection.xml", where <emphasis effect="italics">&lt;id&gt;</emphasis> and <emphasis effect="italics">&lt;version&gt;</emphasis> are the collection's ID and version number, respectively. The CollXML file contains information about the collection including references to component modules, the order in which they are presented in the collection, and chapter/section information, along with a copy of the collection metadata.</para>
+
+<para id="imp-id1165932212295">For more information regarding the contents of the collection export file, please see the <link url="../help/authoring/xml#collxml">CollXML help page</link>.</para>
+</section>
+</section>
+
+
+</content>
+</document>

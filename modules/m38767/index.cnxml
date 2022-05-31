@@ -1,0 +1,90 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Overview of Authoring Collections</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m38767</md:content-id>
+  <md:title>Overview of Authoring Collections</md:title>
+  <md:abstract>This module gives an overview of the collection creation process. This includes the modules and metadata of a collection. Each step is described in further detail in other modules.</md:abstract>
+  <md:uuid>cbfb9e83-7221-4d1c-a16b-0cd2da54b5e9</md:uuid>
+</metadata>
+<featured-links>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit below.
+       Changes to the links section in the source will not be saved. -->
+    <link-group type="supplemental">
+      <link url="http://cnx.org/content/m11804/latest/" strength="3">Derived Copy</link>
+    </link-group>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit above.
+       Changes to the links section in the source will not be saved. -->
+</featured-links>
+<content>
+
+    <section id="collectionsummary"><title>What is a Collection?</title><para id="collectionsummarypara1">A collection builds an ordered sequence of <link document="m10887">modules</link>. If you think of modules as individual building blocks, then collections are the things you can build out of those blocks - in this case textbooks, courses, lab manuals, journal issues, and so on. When viewed online, each module will be displayed as a separate web page with links allowing you to move between pages sequentially or jump to a specific point using the table of contents. In PDF format, modules in a collection are combined to form a single document that can be read as a book.</para>
+
+      <para id="collectionsummarypara2">As a collection author, you are free to use any combination of published modules from the content repository, including content created by others. The collection composer allows you to arrange those modules in any order, create "chapters" or other hierarchical structures, and rename modules in order to give you complete control over the organization of the content. Once published, readers can access your collection as a free online ebook (available through the website), download a free PDF copy of your collection for printing or sharing, or even order a low-cost printed version of the text through our print-on-demand partner.</para>
+
+
+</section>
+      	
+      <section id="eip-870"><title>Creating Collections</title><para id="eip-824">Let's imagine you want to make a collection with the following structure of its contents:
+
+<figure id="eip-id1165712746718"><media id="eip-id1165715442930" alt="Collection page view"><image src="content/m19610/latest/collection-view.png" mime-type="image/png"/></media><caption>This collection contains an introduction, and two parts, each containing two modules.</caption></figure>
+</para>
+
+
+<para id="create1">Creating a new collection is similar to creating a 
+	<link document="m10887">new module</link>. 
+	You can create a new link from the "Create New Item" dropdown in one of your <link document="m37462">work areas</link>, or you can check the "Create a new collection" link on the MyCNX home page:
+
+<figure id="eip-id1168149657226">
+  <media id="eip-id1168152085147" alt="The 'Create a new collection' link on the MyCNX home page">
+    <image src="/content/m19610/latest/create-new.png" mime-type="image/png"/>
+  </media>
+  <caption>Go the "MyCNX" tab and select the "Create a new collection" link.</caption>
+</figure>
+
+From there you must agree to the license for this collection, select a work area in which to edit the content, and then enter the collection's initial metadata.
+</para>   
+
+      <para id="metadata1">After accepting the license, you will be asked to enter some basic information, or metadata, about your collection before getting started.  (If you haven't already selected a work area in which to work on the collection, you will be asked to do so.)  The basic metadata include:
+
+<list id="sublist" list-type="bulleted"><item><label>Title (required)</label> A title for the collection</item>
+<item><label>Language (required)</label> The primary language used in the collection</item>
+<item><label>Collection Subtype</label> A subtype that reflects the intended use of the collection, such as Course or Report</item>
+<item><label>Subject(s)</label> The subject categories that apply to the collection</item>
+<item><label>Keywords</label> Terms that describe the most important topics in the collection</item>
+<item><label>Summary</label> A brief description of the collection. You may markup the summary section with inline CNXML tags.</item>
+</list>
+
+<figure id="eip-id1172051151076"><media id="eip-id1172069953627" alt="Basic metadata fields">
+    <image src="/content/m19610/latest/metadata-start.png" mime-type="image/png"/>
+  </media>
+<caption>Enter basic information about your collection here.</caption></figure>
+</para>
+
+<para id="eip-979">Click the <code>Next&gt;&gt;</code> button. The metadata entries are saved and the "Contents" tab displays with the title of the collection. This tab is where you do the actual assembly of the collection.
+</para>
+    </section>
+
+
+    
+      
+
+    <section id="collections"><title>Editing Collections</title><para id="editcollectionspara1">Once you have opened a new or adapted collection within one of your Work Areas, you will need to edit the collection to 
+	add modules and other collection-wide parameters. The 
+	recommended sequence to perform these operations in is described in this module 
+	and appears in the following list:
+      
+	    <list id="sequecncelist" list-type="enumerated"><item><link document="m10288">Arrange</link> the collection contents. Edit how the title and links of the modules will appear when viewed within the context of the collection.</item>
+	      <item>Edit the <link document="m38768">metadata</link> to enter the 
+	      appropriate search keywords and the collection title.</item>
+	      <item>Edit the collection <link document="m38177">roles</link>. This sets the roles for the collection itself, but does not change the roles of the modules included in the collection.</item>
+              <item>Set the collection <link document="m38769">parameters</link>.</item>
+	      <item><link document="m38770">Preview</link> the collection online.</item>
+	      <item><link document="m13054">Publish</link> the collection.</item>
+	    </list>
+</para>
+    </section>
+
+ 
+
+  </content>
+</document>
